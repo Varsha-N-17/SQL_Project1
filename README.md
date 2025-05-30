@@ -30,18 +30,21 @@ The dataset used is a sample music store database containing tables such as:
 - `artists`
 - `genres`
 - `employees`
+- 'media type'
+- 'playlist'
+- 'playlist track'
 
 
-> 📁 You can find the SQL dump file in the `` folder.
+> 📁 You can find the SQL dump file in the `Datasets` folder.
 
 ---
 
 ## 🛠️ Tools & Technologies
 
 - **MySQL** – for querying and data analysis
-- **DB Browser for MySQL Workbench** – for database exploration
-- **Markdown** – for documentation
-
+- **MySQL Workbench** – for database design, exploration, and query execution
+- **Markdown** – for writing project documentation (like this README)
+  
 ---
 
 ## 📊 Key Analyses Performed
