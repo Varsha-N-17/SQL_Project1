@@ -30,9 +30,9 @@ The dataset used is a sample music store database containing tables such as:
 - `artists`
 - `genres`
 - `employees`
-- 'media type'
-- 'playlist'
-- 'playlist track'
+- `media type`
+- `playlist`
+- `playlist track`
 
 
 > 📁 You can find the SQL dump file in the `Datasets` folder.
@@ -50,12 +50,37 @@ The dataset used is a sample music store database containing tables such as:
 ## 📊 Key Analyses Performed
 
 - Top-selling tracks and genres
-- Revenue trends by country and customer
-- Customer segmentation based on purchase behavior
-- Employee performance and sales attribution
-- Artist and album popularity
+- Total Sales amount by Each genre
+- Most popular tracksand tracks never been purchased
+- Customer with increasing purchase amount
+- Artist and album with no Sales in last year
 
 ---
+
+## 🧠 Key SQL Techniques Used
+
+This project demonstrates a variety of advanced SQL techniques to extract meaningful insights from the music store database:
+
+##### 1. Data Aggregation
+Utilized aggregate functions like `SUM()`, `COUNT()`, and `AVG()` to summarize data and identify trends across multiple records.
+##### 2. Joins
+Applied different types of joins such as `INNER JOIN` to combine data from multiple related tables based on common keys.
+##### 3. Subqueries
+Used subqueries to perform nested queries, enabling more complex filtering and computations within a single SQL statement.
+##### 4. Common Table Expressions (CTEs)
+Implemented CTEs using `WITH` clauses to create temporary result sets, improving query readability and modularity.
+##### 5. Window Functions
+Employed window functions like `ROW_NUMBER()` with `OVER(PARTITION BY...)` to perform calculations across specific partitions of data.
+
+--
+## 📬 Contact
+
+For questions or feedback, feel free to reach out:
+
+- 📧 varsharajan02018@gmail.com  
+- 💼 https://www.linkedin.com/in/varsha-r-657999215
+
+
 
 
 
